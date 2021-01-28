@@ -1,0 +1,36 @@
+.main_page {
+    display: inline-block;
+    padding: 40px 40px 24px;
+    max-width: 810px;
+}
+
+
+.background_hexagon_1{
+    position: absolute;
+    transform: translateX(376px) translateY(-48px);
+    max-width: 96px;
+}
+
+.background_hexagon_2{
+    position: absolute;
+    transform: translateX(116px) translateY(-226px);
+    width: 432px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+
+.background_hexagon_2_2{
+    position: absolute;
+    transform: translateX(526px) translateY(-68px);
+    width: 96px;
+    height: 80px;
+    background-repeat: no-repeat;
+}
+
+.background_hexagon_3{
+    position: absolute;
+    background-repeat: no-repeat;
+    transform: translateX(568px) translateY(-396px);
+    width: 280px;
+    height: 420px;
+}

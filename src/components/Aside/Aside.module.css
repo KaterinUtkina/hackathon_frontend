@@ -1,0 +1,194 @@
+.aside {
+    width: 360px;
+    box-sizing: border-box;
+    border-right: 1px solid rgba(35, 31, 32, 0.2);;
+}
+
+.aside_caption {
+    position: relative;
+    height: 404px;
+    max-width: 280px;
+    margin: 40px auto 80px;
+}
+
+.aside_caption h3 {
+    margin: 0;
+    padding-top: 28px;
+    font-size: 37px;
+    line-height: 44px;
+    font-weight: 700;
+    position: relative;
+}
+
+.aside_caption_wrapper {
+    position: relative;
+    margin-top: 172px;
+    width: 280px;
+    min-height: 115px;
+    box-sizing: border-box;
+    background: radial-gradient(100% 100% at 0% 100%, #FFF4C2 0%, rgba(255, 231, 167, 0.2) 60%, rgba(255, 255, 255, 0) 100%);
+    border-left: 1px solid;
+    border-image: linear-gradient(to bottom, rgba(35, 31, 32, 0) 0%, rgba(35, 31, 32, 0.2) 100%) 1 round;
+}
+
+.aside_caption_content {
+    position: relative;
+    z-index: 1;
+    width: 240px;
+    margin-left: 24px;
+    margin-bottom: 10px;
+}
+
+.aside_caption_line_down {
+    margin: 0;
+    height: 1px;
+    width: 280px;
+    background: linear-gradient(270deg, rgba(35, 31, 32, 0) 0%, rgba(35, 31, 32, 0.2) 100%);
+}
+
+.aside_news {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.aside_news_hashtag {
+    position: relative;
+    margin: 0 0 0 24px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.aside_caption_img_marathon {
+    position: absolute;
+    max-width: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translateX(17px) translateY(-8px);
+}
+
+.aside_caption_img_2020 {
+    position: absolute;
+    max-width: 218px;
+    width: 100%;
+    transform: translateX(74px) translateY(8px);
+}
+
+.aside_caption_img_line {
+    position: absolute;
+    max-width: 40px;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translateX(-8px) translateY(78px);
+}
+
+.aside_caption_img_hexagon2 {
+    position: fixed;
+    max-width: 144px;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translateX(176px) translateY(-42px);
+}
+
+.aside_caption_img_three_hexagons3 {
+    position: fixed;
+    max-width: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    transform: translateY(-240px);
+}
+
+.aside_news_button {
+    position: relative;
+    display: block;
+    margin: 16px auto 0;
+    width: 280px;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.aside_news_button_link{
+    text-decoration: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(35, 31, 32, 0.2);
+    display: block;
+    padding: 12px 0;
+    color: black;
+    font-weight: bold;
+}
+
+.aside_news_button .aside_news_button_link_hover{
+    display: none;
+}
+
+.aside_news_button:hover .aside_news_button_link{
+    display: none;
+}
+
+.aside_news_button:hover .aside_news_button_link_hover{
+    padding: 12px 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    display: block;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #231F20;
+    text-decoration: none;
+
+}
+
+.aside_mail {
+    position: relative;
+    margin: 24px auto;
+    width: 280px;
+    text-align: center;
+}
+
+.aside_mail span {
+    cursor: pointer;
+    border-bottom: 2px solid rgba(35, 31, 32, 0.5);
+}
+
+
+.aside_mail span:hover{
+    border-bottom: 2px solid #231F20;
+}
+
+.aside_caption_img_hexagon3 {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    background-repeat: no-repeat;
+    transform: translateX(316px) translateY(-62px);
+}
+
+.aside_social_network {
+    position: relative;
+    margin: 22px auto 40px;
+    display: flex;
+    width: 104px;
+    justify-content: space-between;
+}
+
+.aside_social_network_vk {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-image: url("../image/aside_img/vk.png");
+}
+
+.aside_social_network_facebook {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-image: url("../image/aside_img/facebook.png");
+}
+
+.aside_social_network_instagram {
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-image: url("../image/aside_img/instagram.png");
+}
+
